@@ -74,37 +74,37 @@ section header{
     margin-top: -900px;
 	float: right;
 	width: 370px;
-    z-index: 0;
+    z-index: -1;
 }
 .derechaConsola{
     margin-top: -400px;
 	float: right;
 	width: 370px;
-    z-index: 0;
+    z-index: -1;
 }
 .derechaJuegos{
     margin-top: -400px;
 	float: right;
 	width: 370px;
-    z-index: 0;
+    z-index: -1;
 }
 .derechaMerchan{
     margin-top: -400px;
 	float: right;
 	width: 400px;
-    z-index: 0;
+    z-index: -1;
 }
 .derechaMerchan2{
     margin-top: -320px;
 	float: right;
 	width: 430px;
-    z-index: 0;
+    z-index: -1;
 }
 .derechaMerchan3{
     margin-top: -400px;
 	float: right;
 	width: 400px;
-    z-index: 0;
+    z-index: -1;
 }
 
 footer{
