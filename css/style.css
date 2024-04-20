@@ -1,0 +1,221 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:whitesmoke;
+    font-family: "Retro";
+}
+body{
+    background-color: black;
+}
+@font-face {
+    font-family: "Retro";
+    src: url(../font/RETROTECH.ttf);
+}
+
+#contenedor{
+    display: inline;
+}
+
+header{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.nintendo{
+    width: 200px;
+    height: 120px;
+}
+.retroVLC{
+    text-align: center;
+    color: darkred;
+    font-size: 40px;
+}
+nav{
+    background-color: darkred;
+    height: 70px;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+}
+.navi li a{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    position: relative;
+    left: 900px;
+
+}
+.navi li a:hover{
+    opacity: 0.6;
+}
+.navi > li{
+    float: left;
+}
+.navi li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.navi li:hover >ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+section header{
+    text-align: left;
+}
+
+.derecha{
+    margin-top: -900px;
+	float: right;
+	width: 370px;
+    z-index: 1;
+}
+.derechaConsola{
+    margin-top: -400px;
+	float: right;
+	width: 370px;
+    z-index: 1;
+}
+.derechaJuegos{
+    margin-top: -400px;
+	float: right;
+	width: 370px;
+    z-index: 1;
+}
+.derechaMerchan{
+    margin-top: -400px;
+	float: right;
+	width: 400px;
+    z-index: 1;
+}
+.derechaMerchan2{
+    margin-top: -320px;
+	float: right;
+	width: 430px;
+    z-index: 1;
+}
+.derechaMerchan3{
+    margin-top: -400px;
+	float: right;
+	width: 400px;
+    z-index: 1;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#autores{
+    color: darkred;
+}
+
+h1, h2, h3{
+    color: darkred;
+}
+
+.listaJuegos{
+    color: darkgoldenrod;
+    position: relative;
+    left: 100px;
+}
+
+.compramos{
+    position: relative;
+    text-align: center;
+    left: 150px;
+    z-index: -2;
+    width: 1000px;
+    height: 400px;
+
+}
+article{
+    text-align: justify;
+    position: relative;
+    left: 30px;
+
+}
+.consolas{
+    position: relative;
+    text-align: center;
+    left: 550px;
+    z-index: -2;
+    width: 500px;
+    height: 200px;
+}
+.juegos{
+    position: relative;
+    text-align: center;
+    left: 550px;
+    z-index: -2;
+    width: 500px;
+    height: 200px;
+}
+
+.formu{
+    text-align: center;
+}
+
+#formulario{
+    font-size: 25px;
+}
+
+.f1{
+    background-color:lightsalmon;
+    color: black;
+}
+
+.f2{
+    background-color: lightslategray;
+    color: black;
+}
+
+.f3{
+    background-color:lightpink;
+    color: black;
+}
+
+legend{
+    font-size: 30px;
+}
+.merchan{
+    position: relative;
+    text-align: center;
+    left: 120px;
+    z-index: -2;
+    width: 280px;
+    height: 170px;
+}
+.merchan2{
+    position: relative;
+    text-align: center;
+    left: 250px;
+    z-index: -2;
+    width: 300px;
+    height: 100px;
+}
+.merchanComic{
+    position: relative;
+    text-align: center;
+    left: 500px;
+    z-index: -2;
+    width: 350px;
+    height: 200px;
+}
+.merchanGuias{
+    position: relative;
+    text-align: center;
+    left: 600px;
+    z-index: -2;
+    width: 600px;
+    height: 200px;
+}
+.centroMerchan{
+    left:700px;
+}
