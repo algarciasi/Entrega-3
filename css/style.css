@@ -7,6 +7,7 @@
 }
 body{
     background-color: black;
+
 }
 @font-face {
     font-family: "Retro";
@@ -15,6 +16,9 @@ body{
 
 #contenedor{
     display: inline;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 header{
@@ -231,6 +235,10 @@ legend{
 
 @media (max-width: 576px) {
     #contenedor {
+        padding: 0 10px;
+        width: 100%;
+    }
+    section {
         padding: 0 10px;
     }
 
