@@ -220,3 +220,11 @@ legend{
 .centroMerchan{
     left:700px;
 }
+
+.reset{
+    color: grey;
+}
+
+.submit{
+    color: grey;
+}
