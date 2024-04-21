@@ -228,3 +228,85 @@ legend{
 .submit{
     color: grey;
 }
+
+@media (max-width: 576px) {
+    #contenedor {
+        padding: 0 10px;
+    }
+
+    .navi {
+        padding: 0 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .compramos {
+        width: 100%;
+        height: auto;
+    }
+    .consolas {
+        width: 100%;
+        height: auto;
+    }
+    .juegos {
+        width: 100%;
+        height: auto;
+    }
+    .merchan {
+        max-width: 100%;
+        height: auto;
+    }
+    .merchan2 {
+        max-width: 100%;
+        height: auto;
+    }
+    .merchanComic {
+        max-width: 100%;
+        height: auto;
+    }
+    .merchanGuias {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    #contenedor{
+        padding: 0 30px;
+    }
+    .navi {
+        padding: 0 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .compramos {
+        width: 100%;
+        height: auto;
+    }
+    .consolas {
+        width: 100%;
+        height: auto;
+    }
+    .juegos {
+        width: 100%;
+        height: auto;
+    }
+    .merchan {
+        max-width: 100%;
+        height: auto;
+    }
+    .merchan2 {
+        max-width: 100%;
+        height: auto;
+    }
+    .merchanComic {
+        max-width: 100%;
+        height: auto;
+    }
+    .merchanGuias {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
