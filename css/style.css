@@ -384,8 +384,8 @@ legend{
     .navi li a{
         /*box-sizing: border-box;
         text-align: center;*/
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        max-width: 90%;
         height: fit-content;
         background-color: darkred;
         color: white;
@@ -439,6 +439,13 @@ legend{
         margin: 0 auto;
         left: 10px;
     }
+    .merchan{
+        max-width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
     .centroMerchan{
         max-width: 100%;
         height: auto;
@@ -454,7 +461,7 @@ legend{
         left: 10px;
     }
     .consolas{
-        max-width: 90%;
+        max-width: 70%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -560,6 +567,13 @@ legend{
     }
     .merchanGuias{
         max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .merchan{
+        max-width: 70%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -676,6 +690,13 @@ legend{
         margin: 0 auto;
         left: 10px;
     }
+    .merchan{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
     .centroMerchan{
         max-width: 100%;
         height: auto;
@@ -773,6 +794,13 @@ legend{
     }
     .merchanGuias{
         max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .merchan{
+        max-width: 90%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -880,6 +908,13 @@ legend{
         margin: 0 auto;
         left: 10px;
     }
+    .merchan{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
     .centroMerchan{
         max-width: 100%;
         height: auto;
@@ -981,6 +1016,13 @@ legend{
         left: 10px;
     }
     .merchanGuias{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .merchan{
         max-width: 100%;
         height: auto;
         display: block;
