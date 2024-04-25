@@ -352,14 +352,14 @@ legend{
 
 /*IPHONE 14 PRO*/
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:350px) {
 
     #contenedor{
         width: 90%;
     }
 
     header{
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
         color: white;
     }
@@ -367,7 +367,7 @@ legend{
     .retroVLC{
         text-align: center;
         color: darkred;
-        font-size: 25px;
+        font-size: 20px;
     }
 
      nav{
