@@ -394,9 +394,9 @@ legend{
         padding: 0.1em;
         display: flex;
         position: relative;
-        left: -10%;
+        left: -12%;
         font-size:2px;
-        margin: -2px;
+        margin: -3px;
         /*min-height: 110;*/
     }
 
