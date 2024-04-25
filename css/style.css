@@ -350,12 +350,150 @@ legend{
 
 }
 
+/*IPHONE 14 PRO*/
+
+@media screen and (max-width:390px) {
+
+    #contenedor{
+        width: 90%;
+    }
+
+    header{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .retroVLC{
+        text-align: center;
+        color: darkred;
+        font-size: 30px;
+    }
+
+     nav{
+        width: 110%;
+        box-sizing: border-box;
+        /*height: fit-content;*/
+        /*background-color: black;*/
+    }
+
+    footer img{
+        width: 80%;
+    }
+
+    .navi li a{
+        /*box-sizing: border-box;
+        text-align: center;*/
+        width: 100%;
+        max-width: 100%;
+        height: fit-content;
+        background-color: darkred;
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+        padding: 0.1em;
+        display: flex;
+        position: relative;
+        left: -10%;
+        font-size:2px;
+        margin: -2px;
+        /*min-height: 110;*/
+    }
+
+    .derecha{
+        display: none;
+    }
+    .derechaConsola{
+        display: none;
+    }
+    .derechaJuegos{
+        display: none;
+    }
+    .derechaMerchan{
+        display: none;
+    }
+    .derechaMerchan2{
+        display: none;
+    }
+    .derechaMerchan3{
+        display: none;
+    }
+    .compramos{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .merchanComic{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .merchanGuias{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .centroMerchan{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 60px;
+    }
+    .juegos{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    .consolas{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: 10px;
+    }
+    article{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        left: -8px;
+    }
+    .formul{
+        max-width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+
 /* RESOLUCION MOVIL VERTICAL (PIXEL7)*/
 
 @media screen and (max-width:412px) {
 
     #contenedor{
         width: 90%;
+    }
+
+    header{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .retroVLC{
+        text-align: center;
+        color: darkred;
+        font-size: 30px;
     }
 
     nav{
