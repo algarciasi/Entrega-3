@@ -18,7 +18,7 @@ body{
     display: inline;
     width: 100%;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 header{
@@ -487,9 +487,9 @@ legend{
 
 @media screen and (max-width:412px) {
 
-    #contenedor{
+    /*#contenedor{
         width: 90%;
-    }
+    }*/
 
     header{
         font-size: 20px;
@@ -591,7 +591,7 @@ legend{
         height: auto;
         display: block;
         margin: 0 auto;
-        left: 10px;
+        /*left: 10px;*/
     }
     .consolas{
         max-width: 90%;
